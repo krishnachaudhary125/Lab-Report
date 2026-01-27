@@ -1,12 +1,14 @@
 package com.example.labreport;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnOne, btnTwo, btnThree, btnFour, btnFive, btnSix, btnSeven, btnEight, btnNine, btnTen, btnEleven, btnTwelve, btnThirteen;
+    private Button btnOne, btnTwo, btnThree, btnFour, btnFive, btnSix, btnSeven, btnEight, btnNine, btnTen, btnEleven, btnTwelve, btnThirteen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,5 +28,13 @@ public class MainActivity extends AppCompatActivity {
         btnEleven = findViewById(R.id.eleven);
         btnTwelve = findViewById(R.id.twelve);
         btnThirteen = findViewById(R.id.thirteen);
+
+        btnOne.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, QnOneActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
