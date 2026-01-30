@@ -46,7 +46,7 @@ public class QnThreeActivity extends AppCompatActivity {
                 }
                 AlertDialog.Builder builder = new AlertDialog.Builder(QnThreeActivity.this);
                 builder.setCancelable(true);
-                builder.setMessage(buffer.toString()).show();
+                builder.setTitle("Student Records").setMessage(buffer.toString()).show();
             }
         });
     }

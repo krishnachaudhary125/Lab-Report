@@ -31,6 +31,9 @@
         <activity
             android:name=".QnThreeActivity"
             android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".QnFourActivity"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
