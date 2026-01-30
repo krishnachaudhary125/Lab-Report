@@ -10,79 +10,79 @@
 
     <Button
         android:id="@+id/one"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="QuestionOne"/>
 
     <Button
         android:id="@+id/two"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="QuestionTwo"/>
 
     <Button
         android:id="@+id/three"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="QuestionThree"/>
 
     <Button
         android:id="@+id/four"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="QuestionFour"/>
 
     <Button
         android:id="@+id/five"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="QuestionFive"/>
 
     <Button
         android:id="@+id/six"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="QuestionSix"/>
 
     <Button
         android:id="@+id/seven"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="QuestionSeven"/>
 
     <Button
         android:id="@+id/eight"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="QuestionEight"/>
 
     <Button
         android:id="@+id/nine"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="QuestionNine"/>
 
     <Button
         android:id="@+id/ten"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="QuestionTen"/>
 
     <Button
         android:id="@+id/eleven"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="QuestionEleven"/>
 
     <Button
         android:id="@+id/twelve"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="QuestionTwelve"/>
 
     <Button
         android:id="@+id/thirteen"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="QuestionThirteen"/>
 
