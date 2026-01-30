@@ -44,5 +44,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btnThree.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(MainActivity.this, QnThreeActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
