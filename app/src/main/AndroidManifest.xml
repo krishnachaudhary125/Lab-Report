@@ -37,6 +37,12 @@
         <activity
             android:name=".QnFiveActivity"
             android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".QnSixActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".QnSixSecondActivity"
+            android:parentActivityName=".QnSixActivity"/>
     </application>
 
 </manifest>
