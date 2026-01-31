@@ -13,6 +13,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LabReport">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyARO24OQM9qz7Q_eg-zHLwUmiTt-fNR3wM"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -48,6 +53,9 @@
             android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".QnEightActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".QnNineActivity"
             android:parentActivityName=".MainActivity"/>
     </application>
 
