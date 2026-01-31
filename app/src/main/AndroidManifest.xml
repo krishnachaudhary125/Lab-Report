@@ -58,6 +58,15 @@
         <activity
             android:name=".QnTenActivity"
             android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".QnElevenActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".QnTwelveActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".QnTwelveImage"
+            android:parentActivityName=".QnTwelveActivity"/>
     </application>
     <uses-permission android:name="android.permission.INTERNET"/>
 

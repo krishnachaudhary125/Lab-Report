@@ -108,5 +108,21 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btnEleven.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, QnElevenActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnTwelve.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, QnTwelveActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
